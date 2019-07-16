@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\cox-automotive-dealers\\cox-automotive-dealers\\cox-automotive-dealers.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\cox-automotive-dealers\\cox-automotive-dealers\\cox-automotive-dealers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\cox-automotive-dealers\\cox-automotive-dealers\\cox-automotive-dealers.csproj",
+        "projectName": "cox-automotive-dealers",
+        "projectPath": "D:\\Code\\cox-automotive-dealers\\cox-automotive-dealers\\cox-automotive-dealers.csproj",
+        "packagesPath": "C:\\Users\\mbblauta\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\cox-automotive-dealers\\cox-automotive-dealers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mbblauta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://proget.homenet.local/nuget/HomeNet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/cox-carvim/auth/0b748980-efe3-4491-9608-34c2588c4674/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
